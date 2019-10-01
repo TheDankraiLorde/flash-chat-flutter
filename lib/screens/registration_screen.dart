@@ -53,7 +53,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               },
               obscureText: true,
               textAlign: TextAlign.center,
-              decoration: kMessageTextFieldDecoration.copyWith(hintText: "Password Please"),
+              decoration: kTextFieldDecoration.copyWith(hintText: "Password Please"),
             ),
             SizedBox(
               height: 24.0,
